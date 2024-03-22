@@ -2,19 +2,19 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 
 import Home from '../views/Home.vue'
-import NewEquipment from '../views/NewEquipment.vue'
-import NewMachineFamily from '../views/NewMachineFamily.vue'
-import EquipmentDetails from '../views/EquipmentDetails.vue'
-import UsedEquipment from '../views/UsedEquipment.vue'
-import UsedEquipmentFamily from '../views/UsedEquipmentFamily.vue'
-import UsedEquipmentDetails from '../views/UsedEquipmentDetails.vue'
-import RentalEquipmentCatgories from '../views/RentalEquipmentCatgories.vue'
-import Parts from '../views/Parts.vue'
-import Trucks from '../views/Trucks.vue'
-import Service from '../views/Service.vue'
+import NewEquipment from '../views/equipment/NewEquipment.vue'
+import NewEquipmentFamily from '../views/equipment/NewEquipmentFamily.vue'
+import NewEquipmentDetails from '../views/equipment/NewEquipmentDetails.vue'
+import UsedEquipment from '../views/used-equipment/UsedEquipment.vue'
+import UsedEquipmentFamily from '../views/used-equipment/UsedEquipmentFamily.vue'
+import UsedEquipmentDetails from '../views/used-equipment/UsedEquipmentDetails.vue'
+import RentalEquipmentCatgories from '../views/rentals/RentalEquipmentCatgories.vue'
+import Part from '../views/parts/Part.vue'
+import Truck from '../views/trucks/Truck.vue'
+import Service from '../views/services/Service.vue'
 import ContsctUs from '../views/ContactUs.vue'
-import Signin from '../views/Signin.vue'
-import Login from '../views/Login.vue'
+import Signin from '../views/account/Signin.vue'
+import Login from '../views/account/Login.vue'
 
 
 const router = createRouter({
@@ -31,14 +31,14 @@ const router = createRouter({
       component: NewEquipment
     },
     {
-      path: '/new-machine-family',
-      name: 'new-machine-family',
-      component: NewMachineFamily
+      path: '/new-equipment-family',
+      name: 'new-equipment-family',
+      component: NewEquipmentFamily
     },
     {
-      path: '/equipment-details',
-      name: 'equipment-details',
-      component: EquipmentDetails
+      path: '/new-equipment-details',
+      name: 'new-equipment-details',
+      component: NewEquipmentDetails
     },
     {
       path: '/used-equipment',
@@ -61,14 +61,14 @@ const router = createRouter({
       component: RentalEquipmentCatgories
     },
     {
-      path: '/parts',
-      name: 'parts',
-      component: Parts
+      path: '/part',
+      name: 'part',
+      component: Part
     },
     {
-      path: '/trucks',
-      name: 'trucks',
-      component: Trucks
+      path: '/truck',
+      name: 'truck',
+      component: Truck
     },
     {
       path: '/service',

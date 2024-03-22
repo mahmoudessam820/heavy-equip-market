@@ -54,7 +54,7 @@ import TheWelcome from '../components/TheWelcome.vue'
                     </div>
                 </RouterLink>
 
-                <RouterLink to="/parts" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <RouterLink to="/part" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
                         <img src="../assets/images/icons/parts.svg" class="block mx-auto sm:h-20">
 
@@ -74,7 +74,7 @@ import TheWelcome from '../components/TheWelcome.vue'
                     </div>
                 </RouterLink>
 
-                <RouterLink to="trucks" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <RouterLink to="truck" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
                         <img src="../assets/images/icons/truck.svg" class="block mx-auto sm:h-20">
 

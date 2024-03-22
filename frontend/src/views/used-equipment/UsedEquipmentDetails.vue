@@ -11,7 +11,7 @@
                     <div class="md:flex-1 px-4 flex flex-col justify-center items-center">
 
                         <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
-                            <img class="w-full h-full object-cover" src="../assets/images/used-equipment-family/Motor-Graders.jfif" alt="Product Image">
+                            <img class="w-full h-full object-cover" src="@/assets/images/used-equipment-family/Motor-Graders.jfif" alt="Motor-Graders">
                         </div>
 
                         <div class="w-full px-2">

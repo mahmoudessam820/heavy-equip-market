@@ -8,7 +8,7 @@
         <div class="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
 
             <div class="hidden lg:flex lg:justify-center lg:w-1/2 bg-cover">
-                <img src="../assets/images/icons/trucking-svgrepo-com.png" alt="image description" style="max-width: 400px; max-height: 400px;">
+                <img src="@/assets/images/icons/trucking-svgrepo-com.png" alt="trucking" style="max-width: 400px; max-height: 400px;">
             </div>
             
             <div class="w-full p-8 lg:w-1/2">

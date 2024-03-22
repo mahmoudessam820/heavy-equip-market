@@ -32,7 +32,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/aerial.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/aerial.jpg" class="block mx-auto sm:h-20" alt="aerial">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Aerial
@@ -42,7 +42,7 @@
 
                 <RouterLink to="/used-equipment" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/air.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/air.jpg" class="block mx-auto sm:h-20" alt="air">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Air
@@ -52,7 +52,7 @@
 
                 <RouterLink to="rental-equipment-catgories" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/attachments.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/attachments.jpg" class="block mx-auto sm:h-20" alt="attachments">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Attachments
@@ -62,7 +62,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/compactors.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/compactors.jpg" class="block mx-auto sm:h-20" alt="compactors">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Compactors
@@ -72,7 +72,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/concrete.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/concrete.jpg" class="block mx-auto sm:h-20" alt="concrete">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Concrete
@@ -82,7 +82,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/earthmoving.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/earthmoving.jpg" class="block mx-auto sm:h-20" alt="earthmoving">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Earthmoving
@@ -93,7 +93,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/generator.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/generator.jpg" class="block mx-auto sm:h-20" alt="generator">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Generator
@@ -104,7 +104,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/rental-equipment-catgories/truck-and-trailers.jpg" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/rental-equipment-catgories/truck-and-trailers.jpg" class="block mx-auto sm:h-20" alt="truck-and-trailers">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Truck And Trailers

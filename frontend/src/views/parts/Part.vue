@@ -28,7 +28,7 @@
             <div class="block rounded-xl border border-gray-800 p-4">
                 <span class="inline-block rounded-lg p-3">
                 <div class="inline-flex align-middle justify-center items-center select-none text-white">
-                    <img src="../assets/images/icons/GENUINE CAT PARTS.png">
+                    <img src="@/assets/images/icons/GENUINE CAT PARTS.png" alt="GENUINE CAT PARTS">
                 </div>
                 </span>
 
@@ -43,7 +43,7 @@
             <div class="block rounded-xl border border-gray-800 p-4">
                 <span class="inline-block rounded-lg p-3">
                     <div class="inline-flex align-middle justify-center items-center select-none text-white">
-                        <img src="../assets/images/icons/GET IT WHEN YOU NEED IT.png">
+                        <img src="@/assets/images/icons/GET IT WHEN YOU NEED IT.png" alt="GET IT WHEN YOU NEED IT">
                     </div>
                 </span>
                 <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
@@ -57,7 +57,7 @@
             <div class="block rounded-xl border border-gray-800 p-4">
                 <span class="inline-block rounded-lg p-3">
                     <div class="inline-flex align-middle justify-center items-center select-none text-white">
-                        <img src="../assets/images/icons/247 EXPERT SUPPORT.png">
+                        <img src="@/assets/images/icons/247 EXPERT SUPPORT.png" alt="247 EXPERT SUPPORT">
                     </div>
                 </span>
 
@@ -72,7 +72,7 @@
             <div class="block rounded-xl border border-gray-800 p-4">
                 <span  class="inline-block rounded-lg p-3">
                 <div class="inline-flex align-middle justify-center items-center select-none text-white">
-                    <img src="../assets/images/icons/PAY YOUR WAY.png">
+                    <img src="@/assets/images/icons/PAY YOUR WAY.png" alt="PAY YOUR WAY">
                 </div>
                 </span>
                 <h2 class="mt-2 font-semibold text-base sm:text-lg text-white">
@@ -94,7 +94,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/ATTACHMENTS.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/ATTACHMENTS.jfif" class="block mx-auto sm:h-20" alt="ATTACHMENTS">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Attachments
@@ -104,7 +104,7 @@
 
                 <RouterLink to="/used-equipment" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/CABS.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/CABS.jfif" class="block mx-auto sm:h-20" alt="CABS">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Cabs
@@ -114,7 +114,7 @@
 
                 <RouterLink to="rental-equipment-catgories" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/DRIVETRAIN.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/DRIVETRAIN.jfif" class="block mx-auto sm:h-20" alt="DRIVETRAIN">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Drivetrain
@@ -124,7 +124,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/ELECTRICAL & ELECTRONICS.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/ELECTRICAL & ELECTRONICS.jfif" class="block mx-auto sm:h-20" alt="ELECTRICAL & ELECTRONICS">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Electrical & Electronics
@@ -134,7 +134,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/ENGINE.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/ENGINE.jfif" class="block mx-auto sm:h-20" alt="ENGINE">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Engine
@@ -144,7 +144,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/FILTERS & FLUIDS.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/FILTERS & FLUIDS.jfif" class="block mx-auto sm:h-20" alt="FILTERS & FLUIDS">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Filters & Fluids
@@ -155,7 +155,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/HOSES & TUBES.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/HOSES & TUBES.jfif" class="block mx-auto sm:h-20" alt="HOSES & TUBES">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Hoese & Tubes
@@ -166,7 +166,7 @@
 
                 <RouterLink to="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                     <div>
-                        <img src="../assets/images/parts/HYDRAULICS.jfif" class="block mx-auto sm:h-20">
+                        <img src="@/assets/images/parts/HYDRAULICS.jfif" class="block mx-auto sm:h-20" alt="HYDRAULICS">
 
                         <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
                             Hydraulics

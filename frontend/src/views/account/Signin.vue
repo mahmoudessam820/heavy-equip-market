@@ -72,13 +72,13 @@
                     </div>
 
                     <div>
-                        <label for="phonen" class="block text-sm font-medium text-gray-700">
-                            Phonen
+                        <label for="phone" class="block text-sm font-medium text-gray-700">
+                            Phone
                         </label>
                         <div class="mt-1">
-                            <input id="phonen" name="phonen" type="text" required
+                            <input id="phone" name="phone" type="text" required
                                 class="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                                placeholder="Enter your phonen number">
+                                placeholder="Enter your phone number">
                         </div>
                     </div>
 

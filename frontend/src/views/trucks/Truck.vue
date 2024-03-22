@@ -11,20 +11,20 @@
                 <div class="space-y-4">
 
                     <h2 class="text-white font-bold text-yellow-200 text-4xl">
-                        Service
+                        Trucks
                         
                     </h2>
 
                     <p class="text-xl leading-relaxed text-white">
-                        Finding a trustworthy mechanic to work on
-                        your business’s equipment can be a full-time job in itself. You’ll want to select a company with a strong reputation for quality craftsmanship, clear communication and outstanding customer service.
+                        Used Trucks For Sale in Alabama & Northwest Florida
+                        We are proud to offer a full product line of Caterpillar equipment designed to help you get the job done. From dozers and excavators to pavers and loaders, we’re your one stop shop for all the new and used Cat equipment you need. Visit us at our Used Equipment Sales Center, 10120 US-80 Montgomery, AL 36117 or call (855) 443-7017.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- service -->
+    <!-- trucks -->
     <section id="used-equipment">
         <div class="mx-auto p-5 sm:p-10 md:p-16">
             <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-10">
@@ -33,13 +33,13 @@
                     <div class="relative">
                         <RouterLink to="/used-equipment-family">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/service/shop-field-service.jpg" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/trucks/626-main-image.jpg" alt="Sunset in the mountains">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </RouterLink>
                     </div>
                     <div class="px-6 py-4">
-                        <RouterLink to="/used-equipment-family" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">SHOP & FIELD SERVICE</RouterLink>
+                        <RouterLink to="/used-equipment-family" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">SCANIA R440 6X2 TRACTOR UNIT 2013</RouterLink>
                     </div>
                 </div>
 
@@ -48,13 +48,13 @@
                     <div class="relative">
                         <a href="#">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/service/machine-rebuilds.jpg" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/trucks/635-main-image.jpg" alt="Sunset in the mountains">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </a>
                     </div>
                     <div class="px-6 py-4">
-                        <a href="#" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">MACHINE REBUILDS</a>
+                        <a href="#" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">DAF CF 450 6X2 TRACTOR UNIT 2018</a>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@
                     <div class="relative">
                         <a href="#">
                             <div class="h-48">
-                                <img class="w-full h-full object-cover" src="../assets/images/service/truck-service.jfif" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/trucks/658-main-image.jpg" alt="Sunset in the mountains">
                             </div>
 
                             <div
@@ -76,7 +76,7 @@
                     <div class="px-6 py-4">
 
                         <a href="#"
-                            class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">TRUCK SERVICE</a>
+                            class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">RENAULT T460 6X2 TRACTOR UNIT 2016</a>
                     </div>
 
 
@@ -89,7 +89,7 @@
                     <a href="#">
                         <div class="h-48">
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/service/sos-fluid-analysis.jpg"
+                                src="@/assets/images/trucks/669-main-image.jpg"
                                 alt="Sunset in the mountains">
                         </div>
                         <div
@@ -101,7 +101,7 @@
                 <div class="px-6 py-4">
 
                     <a href="#"
-                        class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">SOS FLUID ANALYSIS</a>
+                        class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">VOLVO FH 460 6X2 TRACTOR UNIT 2012</a>
                 </div>
 
 
@@ -115,7 +115,7 @@
                             <div class="h-48">
 
                                 <img class="w-full h-full object-cover"
-                                    src="../assets/images/service/painting-services.jpg"
+                                    src="@/assets/images/trucks/670-main-image.jpg"
                                     alt="Sunset in the mountains">
                             </div>
                             <div
@@ -127,7 +127,7 @@
                     <div class="px-6 py-4">
 
                         <a href="#"
-                            class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">PAINT SHOP SERVICES</a>
+                            class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">SCANIA R450 6X2 TRACTOR UNIT 2016</a>
                     </div>
 
 
@@ -141,7 +141,7 @@
                             <div class="h-48">
 
                                 <img class="w-full h-full object-cover"
-                                    src="../assets/images/service/customer-support-agreements.jpg"
+                                    src="@/assets/images/trucks/626-main-image.jpg"
                                     alt="Sunset in the mountains">
                             </div>
                             <div
@@ -154,7 +154,7 @@
                     <div class="px-6 py-4">
 
                         <a href="#"
-                            class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">CUSTOMER VALUE AGREEMENTS</a>
+                            class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">SCANIA R440</a>
                     </div>
 
 

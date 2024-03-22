@@ -1,7 +1,3 @@
-<script>
-</script>
-
-
 <template>
 
     <!-- inner-banner-text -->
@@ -12,7 +8,6 @@
 
                     <h2 class="text-white font-bold text-yellow-200 text-4xl">
                         New Equipment 
-                        
                     </h2>
 
                     <p class="text-xl leading-relaxed text-white">
@@ -36,15 +31,15 @@
 
                 <div class="rounded overflow-hidden shadow-lg">
                     <div class="relative">
-                        <RouterLink to="/new-machine-family">
+                        <RouterLink to="/new-equipment-family">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/new-equipment/wheel-loaders.jpg.webp" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/new-equipment/wheel-loaders.jpg.webp " alt="wheel-loaders">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </RouterLink>
                     </div>
                     <div class="px-6 py-4">
-                        <RouterLink to="/new-machine-family" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">Wheel Loaders</RouterLink>
+                        <RouterLink to="/new-equipment-family" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">Wheel Loaders</RouterLink>
                     </div>
                 </div>
 
@@ -53,7 +48,7 @@
                     <div class="relative">
                         <a href="#">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/new-equipment/Asphalt Pavers.jpg" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/new-equipment/Asphalt Pavers.jpg" alt="Asphalt Pavers">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </a>
@@ -69,7 +64,7 @@
                     <div class="relative">
                         <a href="#">
                             <div class="h-48">
-                                <img class="w-full h-full object-cover" src="../assets/images/new-equipment/Backhoe Loaders.jfif" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/new-equipment/Backhoe Loaders.jfif" alt="Backhoe Loaders">
                             </div>
 
                             <div
@@ -94,8 +89,8 @@
                     <a href="#">
                         <div class="h-48">
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/new-equipment/Cold Planers.jfif"
-                                alt="Sunset in the mountains">
+                                src="@/assets/images/new-equipment/Cold Planers.jfif"
+                                alt="Cold Planers">
                         </div>
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -120,8 +115,8 @@
                         <div class="h-48">
 
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/new-equipment/Compact Track Loaders.jpg"
-                                alt="Sunset in the mountains">
+                                src="@/assets/images/new-equipment/Compact Track Loaders.jpg"
+                                alt="Compact Track Loaders">
                         </div>
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -146,8 +141,8 @@
                         <div class="h-48">
 
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/new-equipment/Dozers.jfif"
-                                alt="Sunset in the mountains">
+                                src="@/assets/images/new-equipment/Dozers.jfif"
+                                alt="Dozers">
                         </div>
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -173,8 +168,8 @@
                         <div class="h-48">
 
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/new-equipment/Excavators.jfif"
-                                alt="Sunset in the mountains">
+                                src="@/assets/images/new-equipment/Excavators.jfif"
+                                alt="Excavators">
                         </div>
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -199,8 +194,8 @@
                         <div class="h-48">
                             
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/new-equipment/Forestry Machines.jpg"
-                                alt="Sunset in the mountains">
+                                src="@/assets/images/new-equipment/Forestry Machines.jpg"
+                                alt="Forestry Machines">
                         </div>
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -226,8 +221,8 @@
                             <div class="h-48">
 
                                 <img class="w-full h-full object-cover"
-                                    src="../assets/images/new-equipment/Motor Graders.jfif"
-                                    alt="Sunset in the mountains">
+                                    src="@/assets/images/new-equipment/Motor Graders.jfif"
+                                    alt="Motor Graders">
                             </div>
                             <div
                                 class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -248,7 +243,7 @@
                     <div class="relative">
                         <RouterLink to="/new-machine-family">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/new-equipment/Articulated Trucks.jfif" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/new-equipment/Articulated Trucks.jfif" alt="Articulated Trucks">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </RouterLink>
@@ -263,3 +258,6 @@
     </section>
 
 </template>
+
+<script setup>
+</script>

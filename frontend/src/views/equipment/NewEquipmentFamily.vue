@@ -21,7 +21,7 @@
             </div>
 
             <div class="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-3/6">
-                <img class="object-cover object-center rounded" alt="hero" src="../assets/images/new-equipment/Wheel Loaders-banner.jpg">
+                <img class="object-cover object-center rounded" alt="hero" src="@/assets/images/new-equipment/Wheel Loaders-banner.jpg">
             </div>
 
         </div>
@@ -36,11 +36,11 @@
                 <div class="bg-white rounded-lg shadow-lg p-8">
 
                     <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src="../assets/images/new-machine-family/910 Compact Wheel Loader.jfif" alt="Product">
+                        <img class="object-cover w-full h-full" src="@/assets/images/new-equipment-family/910 Compact Wheel Loader.jfif" alt="910 Compact Wheel Loader">
                         <div class="absolute inset-0 bg-black opacity-40"></div>
                         <div class="absolute inset-0 flex items-center justify-center">
                             
-                            <RouterLink to="/equipment-details" class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</RouterLink>
+                            <RouterLink to="/new-equipment-details" class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</RouterLink>
                             
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                 <div class="bg-white rounded-lg shadow-lg p-8">
 
                     <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src="../assets/images/new-machine-family/926M Aggregate Handler Small Wheel Loader.jfif" alt="Product">
+                        <img class="object-cover w-full h-full" src="@/assets/images/new-equipment-family/926M Aggregate Handler Small Wheel Loader.jfif" alt="Product">
                         <div class="absolute inset-0 bg-black opacity-40"></div>
                         <div class="absolute inset-0 flex items-center justify-center">
                             <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
@@ -93,7 +93,7 @@
                 <div class="bg-white rounded-lg shadow-lg p-8">
 
                     <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src="../assets/images/new-machine-family/988 GC Wheel Loader.jfif" alt="Product">
+                        <img class="object-cover w-full h-full" src="@/assets/images/new-equipment-family/988 GC Wheel Loader.jfif" alt="Product">
                         <div class="absolute inset-0 bg-black opacity-40"></div>
                         <div class="absolute inset-0 flex items-center justify-center">
                             <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
@@ -120,64 +120,64 @@
 
                 <div class="bg-white rounded-lg shadow-lg p-8">
 
-<div class="relative overflow-hidden">
-    <img class="object-cover w-full h-full" src="../assets/images/new-machine-family/988 GC Wheel Loader.jfif" alt="Product">
-    <div class="absolute inset-0 bg-black opacity-40"></div>
-    <div class="absolute inset-0 flex items-center justify-center">
-        <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
-    </div>
-</div>
+                    <div class="relative overflow-hidden">
+                        <img class="object-cover w-full h-full" src="@/assets/images/new-equipment-family/988 GC Wheel Loader.jfif" alt="Product">
+                        <div class="absolute inset-0 bg-black opacity-40"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
+                        </div>
+                    </div>
 
-<h3 class="text-xl font-bold text-gray-900 mt-4">920 Compact Wheel Loader</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mt-4">920 Compact Wheel Loader</h3>
 
-<h4 class="text-l font-bold text-gray-900 mt-4">Maximum Gross Power</h4>
-<span class="text-sm mt-2">110 HP</span>
+                    <h4 class="text-l font-bold text-gray-900 mt-4">Maximum Gross Power</h4>
+                    <span class="text-sm mt-2">110 HP</span>
 
-<h4 class="text-l font-bold text-gray-900 mt-4">Operating Weight</h4>
-<span class="text-sm mt-2">18102 lb</span>
+                    <h4 class="text-l font-bold text-gray-900 mt-4">Operating Weight</h4>
+                    <span class="text-sm mt-2">18102 lb</span>
 
-<h4 class="text-l font-bold text-gray-900 mt-4">Bucket Capacities</h4>
-<span class="text-sm mt-2">1.3-3.5 m3 (1.7-4.6 yd3) </span>
+                    <h4 class="text-l font-bold text-gray-900 mt-4">Bucket Capacities</h4>
+                    <span class="text-sm mt-2">1.3-3.5 m3 (1.7-4.6 yd3) </span>
 
-<div class="flex items-center justify-between mt-4">
-    
-    <button class="bg-black text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">View Details</button>
-    <button class="bg-[#fec70b] text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Get Quote</button>
-</div>
+                    <div class="flex items-center justify-between mt-4">
+                        
+                        <button class="bg-black text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">View Details</button>
+                        <button class="bg-[#fec70b] text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Get Quote</button>
+                    </div>
                 </div>  
 
                 <div class="bg-white rounded-lg shadow-lg p-8">
 
-<div class="relative overflow-hidden">
-    <img class="object-cover w-full h-full" src="../assets/images/new-machine-family/988 GC Wheel Loader.jfif" alt="Product">
-    <div class="absolute inset-0 bg-black opacity-40"></div>
-    <div class="absolute inset-0 flex items-center justify-center">
-        <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
-    </div>
-</div>
+                    <div class="relative overflow-hidden">
+                        <img class="object-cover w-full h-full" src="@/assets/images/new-equipment-family/988 GC Wheel Loader.jfif" alt="Product">
+                        <div class="absolute inset-0 bg-black opacity-40"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>
+                        </div>
+                    </div>
 
-<h3 class="text-xl font-bold text-gray-900 mt-4">920 Compact Wheel Loader</h3>
+                    <h3 class="text-xl font-bold text-gray-900 mt-4">920 Compact Wheel Loader</h3>
 
-<h4 class="text-l font-bold text-gray-900 mt-4">Maximum Gross Power</h4>
-<span class="text-sm mt-2">110 HP</span>
+                    <h4 class="text-l font-bold text-gray-900 mt-4">Maximum Gross Power</h4>
+                    <span class="text-sm mt-2">110 HP</span>
 
-<h4 class="text-l font-bold text-gray-900 mt-4">Operating Weight</h4>
-<span class="text-sm mt-2">18102 lb</span>
+                    <h4 class="text-l font-bold text-gray-900 mt-4">Operating Weight</h4>
+                    <span class="text-sm mt-2">18102 lb</span>
 
-<h4 class="text-l font-bold text-gray-900 mt-4">Bucket Capacities</h4>
-<span class="text-sm mt-2">1.3-3.5 m3 (1.7-4.6 yd3) </span>
+                    <h4 class="text-l font-bold text-gray-900 mt-4">Bucket Capacities</h4>
+                    <span class="text-sm mt-2">1.3-3.5 m3 (1.7-4.6 yd3) </span>
 
-<div class="flex items-center justify-between mt-4">
-    
-    <button class="bg-black text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">View Details</button>
-    <button class="bg-[#fec70b] text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Get Quote</button>
-</div>
+                    <div class="flex items-center justify-between mt-4">
+                        
+                        <button class="bg-black text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">View Details</button>
+                        <button class="bg-[#fec70b] text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Get Quote</button>
+                    </div>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-lg p-8">
 
                 <div class="relative overflow-hidden">
-                    <img class="object-cover w-full h-full" src="../assets/images/new-machine-family/988 GC Wheel Loader.jfif" alt="Product">
+                    <img class="object-cover w-full h-full" src="@/assets/images/new-equipment-family/988 GC Wheel Loader.jfif" alt="Product">
                     <div class="absolute inset-0 bg-black opacity-40"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
                         <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button>

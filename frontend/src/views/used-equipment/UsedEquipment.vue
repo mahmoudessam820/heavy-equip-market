@@ -33,7 +33,7 @@
                     <div class="relative">
                         <RouterLink to="/used-equipment-family">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/used-equipment/motor-grader-550x500.png" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/used-equipment/motor-grader-550x500.png" alt="motor-grader">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </RouterLink>
@@ -48,7 +48,7 @@
                     <div class="relative">
                         <a href="#">
                             <div class="h-48"> 
-                                <img class="w-full h-full object-cover" src="../assets/images/used-equipment/scrapers-550x500.png" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/used-equipment/scrapers-550x500.png" alt="scrapers">
                             </div>
                             <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                         </a>
@@ -64,7 +64,7 @@
                     <div class="relative">
                         <a href="#">
                             <div class="h-48">
-                                <img class="w-full h-full object-cover" src="../assets/images/used-equipment/forest-products-550x500.png" alt="Sunset in the mountains">
+                                <img class="w-full h-full object-cover" src="@/assets/images/used-equipment/forest-products-550x500.png" alt="forest-products">
                             </div>
 
                             <div
@@ -89,8 +89,8 @@
                     <a href="#">
                         <div class="h-48">
                             <img class="w-full h-full object-cover"
-                                src="../assets/images/used-equipment/track-loader-550x500.png"
-                                alt="Sunset in the mountains">
+                                src="@/assets/images/used-equipment/track-loader-550x500.png"
+                                alt="track-loader">
                         </div>
                         <div
                             class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -115,8 +115,8 @@
                             <div class="h-48">
 
                                 <img class="w-full h-full object-cover"
-                                    src="../assets/images/used-equipment/compactors-550x500.png"
-                                    alt="Sunset in the mountains">
+                                    src="@/assets/images/used-equipment/compactors-550x500.png"
+                                    alt="compactors">
                             </div>
                             <div
                                 class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -141,8 +141,8 @@
                             <div class="h-48">
 
                                 <img class="w-full h-full object-cover"
-                                    src="../assets/images/used-equipment/aggregates-1-550x500.png"
-                                    alt="Sunset in the mountains">
+                                    src="@/assets/images/used-equipment/aggregates-1-550x500.png"
+                                    alt="aggregates">
                             </div>
                             <div
                                 class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
