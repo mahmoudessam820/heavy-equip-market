@@ -15,6 +15,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Modify user model
+AUTH_USER_MODEL = 'account.User'
+
 
 # Application definition
 
@@ -26,12 +29,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Local apps
+    'account.apps.AccountConfig',
+
     # 3rd parties
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
-
-    # Local apps
 
 ]
 
