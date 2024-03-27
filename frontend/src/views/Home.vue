@@ -8,7 +8,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
         <!-- homepage-banner -->
         <div class="relative h-screen w-full">
-            <img src="../assets/images/carousel/built-for-it-2000x750.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter brightness-100">
+            <img src="../assets/images/carousel/homepage-banner-4_v3.jpg" alt="Background Image" class="absolute inset-0 w-full h-full object-cover filter brightness-100">
             <div class="absolute inset-0 bg-black bg-opacity-50"></div>
             <div class="absolute inset-0 flex flex-col items-center justify-center">
                 <h1 class="text-4xl text-[#fec70b] font-bold">Heavy Equipment Market</h1>

@@ -45,7 +45,8 @@
 
                     <div class="mt-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
-                        <input class="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none" 
+                        <input class="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none"
+                            required
                             type="email" 
                             name="email"
                             />
@@ -56,7 +57,8 @@
                             <label class="block text-gray-700 text-sm font-bold mb-2">Password</label>
                             <a href="#" class="text-xs text-gray-500">Forget Password?</a>
                         </div>
-                        <input class="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none" 
+                        <input class="bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none"
+                            required
                             type="password"
                             name="password"
                             />

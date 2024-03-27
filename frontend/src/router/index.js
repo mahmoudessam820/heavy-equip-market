@@ -15,6 +15,8 @@ import Service from '../views/services/Service.vue'
 import ContsctUs from '../views/ContactUs.vue'
 import Signin from '../views/account/Signin.vue'
 import Login from '../views/account/Login.vue'
+import NotFound from '../views/NotFound.vue'
+
 
 
 const router = createRouter({
@@ -89,6 +91,11 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: 'NotFound',
+      component: NotFound
     },
   ]
 })

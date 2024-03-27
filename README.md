@@ -13,6 +13,9 @@ Heavy Equip Market 🛒 is a web platform designed to connect buyers and sellers
 | ![](screenshots/equipment-details.png) | ![](screenshots/rental-equipment.png) | ![](screenshots/parts.png) |
 | **Sign-in** | **Login** | **Used-Equipment-Details** | 
 | ![](screenshots/heavy-signin.png) | ![](screenshots/heavy-login.png) | ![](screenshots/used-equipment-details.png) |
+| **Not Found** |  
+| ![](screenshots/not-found.png) | 
+
 
 ## Who It's For:
 
