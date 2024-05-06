@@ -1,7 +1,3 @@
-<script>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
 
     <header>
@@ -501,3 +497,8 @@ import TheWelcome from '../components/TheWelcome.vue'
     </section>
     
 </template>
+
+
+<script>
+
+</script>

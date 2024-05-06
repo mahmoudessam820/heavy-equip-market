@@ -1,12 +1,13 @@
 from django.http import JsonResponse
+from rest_framework import status 
+from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.decorators import (
     api_view,
     permission_classes,
     authentication_classes
 )
-
-
-from .forms import SignInForm
+from account.models import User
+from account.forms import SignInForm
 
 
 @api_view(['GET'])
@@ -22,16 +23,22 @@ def me(request):
 @authentication_classes([])
 @permission_classes([])
 def signin(request):
-    
-    if request.method == 'POST':
+    try:
+        if request.method == 'POST':
+            form = SignInForm(request.data)
+            if form.is_valid():
+                form.save()
+                return JsonResponse({'message': 'Sign in successfully.'}, status=status.HTTP_201_CREATED)
+            else:
+                errors = form.errors.get_json_data()
+                return JsonResponse({'errors': errors}, status=status.HTTP_400_BAD_REQUEST)
+    except User.DoesNotExist:
+        return JsonResponse({'message': 'User not found.'}, status=status.HTTP_404_NOT_FOUND)
 
-        form = SignInForm(request.data)
 
-        message = 'Sign in successfully.'
-
-        if form.is_valid():
-            form.save()
-            return JsonResponse({'message': message}, status=200)
-        else:
-            errors = dict(form.errors.items())  # Convert errors to a dictionary
-            return JsonResponse({'errors': errors}, status=400)
+@api_view(['POST'])
+def logout(request):
+    refresh_token = request.headers.get('refresh_token')
+    token = RefreshToken(refresh_token)
+    token.blacklist()
+    return JsonResponse({'message': 'Logged out successfully.'}, status=status.HTTP_204_NO_CONTENT)

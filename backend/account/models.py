@@ -44,7 +44,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_superuser = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
 
-    # Establishes a relationship between the User class and a custom manager class CustomUserManager. 
     objects = CustomUserManager()
 
     # Specifies the field used for authentication. In this case, it's the 'email' field.

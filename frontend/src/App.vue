@@ -1,8 +1,3 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-
-</script>
-
 <template>
 
     <!-- navbar -->
@@ -20,7 +15,9 @@ import { RouterLink, RouterView } from 'vue-router'
                     <span></span>
                 </div>
 
-                <RouterLink to="/signin" class="bg-transparent hover:bg-[#fec70b] text-[#fec70b] font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded lg:px-5 lg:py-2.5 sm:mr-2 lg:mr-0 "> Sign-in</RouterLink>
+                <RouterLink v-if="!userStore.user.isAuthenticated"  to="/signin" class="bg-transparent hover:bg-[#fec70b] text-[#fec70b] font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded lg:px-5 lg:py-2.5 sm:mr-2 lg:mr-0 "> Sign-in</RouterLink>
+                <RouterLink v-else to="/logout" @click="logout" class="bg-transparent hover:bg-[#fec70b] text-[#fec70b] font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded lg:px-5 lg:py-2.5 sm:mr-2 lg:mr-0 "> Logout</RouterLink>
+
                 <RouterLink to="#" class="bg-transparent ml-2 hover:bg-[#fec70b] text-[#fec70b] font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded lg:px-5 lg:py-2.5 sm:mr-2 lg:mr-0 "><i class="fas fa-shopping-cart"></i> Cart</RouterLink>
 
                 <button data-collapse-toggle="mobile-menu-2" type="button"
@@ -95,15 +92,17 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterView />
     </main>
 
+    <Toast />
+
     <!-- footer -->
     <footer>
         <div class="bg-black">
             <div class="max-w-screen-lg px-4 sm:px-6 dark:text-white sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
                 <div class="px-4 my-4 w-full xl:w-1/5">
-                    <RuoterLonk to="/" class="flex items-center mb-2">
+                    <RouterLink to="/" class="flex items-center mb-2">
                         <img src="./assets/images/icons/new.svg" class="h-6 mr-3 sm:h-10" alt="HeavyEquipMarket">
                         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">HeavyEquipMarket</span>
-                    </RuoterLonk>
+                    </RouterLink>
 
                 </div>
                 <div class="p-5">
@@ -229,6 +228,74 @@ import { RouterLink, RouterView } from 'vue-router'
     </footer>
 
 </template>
+
+<script>
+import { onBeforeMount } from 'vue'
+import axios from 'axios'
+import { useRouter } from 'vue-router'
+import Toast from '@/components/Toast.vue'
+import { useUserStore } from '@/stores/UserStore'
+import { useToastStore } from '@/stores/toast'
+
+
+export default {
+    components: {
+        Toast
+    },
+    setup() {
+
+        const router = useRouter() 
+        const userStore = useUserStore()
+        const toastStore = useToastStore()
+
+        onBeforeMount(() => {
+
+            userStore.initStore()
+            const token = userStore.user.access
+
+            if (token) {
+                axios.defaults.headers.common["Authorization"] = "Bearer " + token
+            } else {
+                axios.defaults.headers.common["Authorization"] = ""
+            }
+
+        })
+
+        const logout = () => {
+
+            const token = userStore.user.refresh
+
+            axios.post("logout/", {
+                data: {
+                    refresh_token: `Bearer ${token}` 
+                }
+            })
+            .then(response => {
+                console.log(response.data.message, '🤠')
+                userStore.logout()
+                toastStore.showToast(5000, 'Logged out successfully.', 'bg-emerald-500')
+                router.push("/")
+            })
+            .catch(error => {
+                console.error(error)
+            })
+        }
+
+        const toastErrors = () => {
+            errors.value.forEach(errorMessage => {
+                toastStore.showToast(5000, errorMessage, 'bg-red-300')
+            })
+        }
+
+        return {
+            userStore,
+            logout
+        }
+
+    }
+}
+
+</script>
 
 <style scoped>
 

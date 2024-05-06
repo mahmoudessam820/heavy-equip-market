@@ -38,9 +38,13 @@ REST_FRAMEWORK = {
 }
 
 # Host configuration
-CORS_ALLOWED_ORIGINS = []
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:5173",
+]
 
-CSRF_TRUSTED_ORIGINS = []
+CSRF_TRUSTED_ORIGINS = [
+    "http://127.0.0.1:5173",
+]
 
 
 # Application definition
@@ -59,6 +63,7 @@ INSTALLED_APPS = [
     # 3rd parties
     'rest_framework',
     'rest_framework_simplejwt',
+    'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
 
 ]
