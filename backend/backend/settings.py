@@ -59,12 +59,14 @@ INSTALLED_APPS = [
 
     # Local apps
     'account.apps.AccountConfig',
+    'product.apps.ProductConfig',
 
     # 3rd parties
     'rest_framework',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
+    'django_extensions',
 
 ]
 
