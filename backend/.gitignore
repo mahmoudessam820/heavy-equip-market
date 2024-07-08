@@ -1,3 +1,5 @@
 __pycache__/
+scripts/
+
 db.sqlite3
 dot-file.dot
